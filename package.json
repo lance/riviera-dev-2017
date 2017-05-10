@@ -1,0 +1,24 @@
+{
+  "name": "riviera-dev-2017",
+  "version": "1.0.0",
+  "description": "Slides and materials for my Riviera Dev 2017 talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/lance/riviera-dev-2017"
+  },
+  "keywords": [
+    "presentation",
+    "javascript",
+    "openshift",
+    "redhat",
+    "nodejs",
+    "node",
+    "circuit-breaker"
+  ],
+  "author": "Lance Ball <lanceball@gmail.com> (http://lanceball.com)",
+  "license": "MIT"
+}

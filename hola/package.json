@@ -1,0 +1,36 @@
+{
+  "name": "hola",
+  "version": "1.0.0",
+  "description": "hola microservice running on NodeJS",
+  "main": "hola.js",
+  "scripts": {
+    "start": "node hola.js",
+    "lint": "eslint hola.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bucharest-gold/hola.git"
+  },
+  "author": "developer@redhat.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bucharest-gold/hola/issues"
+  },
+  "homepage": "https://github.com/bucharest-gold/hola#readme",
+  "dependencies": {
+    "es6-shim": "^0.35.1",
+    "express": "^4.13.4",
+    "express-session": "^1.14.2",
+    "keycloak-auth-utils": "2.4.0",
+    "keycloak-connect": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.11.1",
+    "eslint-config-semistandard": "~7.0.0",
+    "eslint-config-standard": "~6.2.1",
+    "eslint-plugin-promise": "~3.4.0",
+    "eslint-plugin-react": "~6.7.1",
+    "eslint-plugin-standard": "~2.0.1",
+    "swagger-express": "~1.0.5"
+  }
+}
